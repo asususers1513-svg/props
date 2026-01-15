@@ -1,8 +1,8 @@
-import { createFileRoute } from '@tanstack/react-router'
-import EmloyeeContent from '@/components/EmployeeContent'
-import Header from '@/components/Header'
+import { createFileRoute } from "@tanstack/react-router"
+import Header from "@/components/Header"
+import EmloyeeContent from "@/components/EmployeeContent"
 
-export const Route = createFileRoute('/')({
+export const Route = createFileRoute("/")({
   component: App,
 })
 
